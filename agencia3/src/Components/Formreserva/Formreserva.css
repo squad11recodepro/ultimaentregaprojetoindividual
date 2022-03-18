@@ -1,0 +1,22 @@
+.container-reserva{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-image: url('../../Assets/Images/Fundocontato.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    }
+    .form-control{
+        color: black;
+        border: 1px solid;  
+    }
+    form {
+        align-items: left; 
+         border-color: black;  
+    }
+    label{
+            text-align: center;   
+            color: black;    
+        }

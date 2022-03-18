@@ -1,0 +1,26 @@
+    .container-cadastro{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        background-image: url('../../Assets/Images/Fundocadastro.jpg');
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        background-size: 100%;
+        background-size: cover;
+
+        }
+.form-control{
+    color: black;
+    border: 1px solid;  
+}
+form {
+    align-items: center; 
+     border-color: black;  
+}
+label{
+        text-align: center;   
+        color: black;
+       
+    }
+      

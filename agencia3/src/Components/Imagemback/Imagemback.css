@@ -1,0 +1,10 @@
+.imagem-fundo{
+        height: 60vh;
+        background: url("../../Assets/Images/Aberturadahome.png")no-repeat center;
+        box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.568);
+        background-size: cover;
+        flex-wrap: wrap;
+}
+.container{
+        padding-bottom: 10px;
+}

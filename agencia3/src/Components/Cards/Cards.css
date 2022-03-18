@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Roboto", "sans-serif";
+}
+.fundo-cards{
+    padding:20px 0px;
+    background-color: white;
+}
+.fundo-cards h1{
+    font-weight: 900;
+    font-size: 34px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    padding: 10px 0px;
+}
+.titulo p{
+    font-size: 18px;
+    text-align: center;
+}
+.card-body{
+    box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.568);
+
+}
+.card{
+    margin:20px 10px;
+}
+.card-body{
+    color: #0c7f90;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+}
+.card-body a:hover{
+color: #63a6b8;
+text-decoration: none;
+}

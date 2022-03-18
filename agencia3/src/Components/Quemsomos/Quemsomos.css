@@ -1,0 +1,11 @@
+.card-img{
+    max-width: 200px;
+}
+.card.mb3{
+    border:0;
+    border-style: none;
+    max-width: 200px;
+}
+.container-quemsomos{
+    max-width: 90%; 
+}

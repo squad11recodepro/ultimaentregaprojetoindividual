@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Roboto", "sans-serif";
+    font-size: 20px;
+}
+.menu-icon{
+    display:none;
+}
+
+.fas{
+    cursor:pointer;
+}
+.menu-icon .fa-times{
+    transform: rotate(360deg);
+    transition: all 0.2s ease-in-out;
+}
+.menu-icon .fa-bars{
+    transform: rotate(180deg);
+    transition: all 0.2s ease-in-out;
+}
+.logo-img{
+    width: 140px;
+    align-items: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+}
+.menu-lista{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.menu-lista li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    padding: 10px 15px;
+    border-top: 5px;
+    border-bottom: 5px;
+}
+
+.menu-lista li a:hover {
+    background-color: rgb(105, 103, 102);
+    border-radius: 10px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.menu-lista.close {
+    right:-100%;
+    transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width:1040px){
+.logo-img{
+    width: 100px;
+    align-items: center;
+}
+.menu-lista li a {
+   padding: 5px 10px;
+   font-size: 15px;
+   margin-left: 5px;
+}
+}
+@media screen and (max-width:780px){
+    .logo-img{
+        width: 80px;
+        margin-left: 20px;
+    }
+    .menu-lista li a {
+       padding: 3px 8px;
+    }
+    }
+@media screen and (max-width:693px){
+    .menu-icon{
+        display:block;
+    }
+    .menu-lista{
+        flex-direction: column;
+        background-color: white;   
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        padding: 20px;
+        right:0;
+        top:64px;
+    }
+    .menu-lista li{
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .menu-lista li a{ 
+        width:100%;
+        display: block;
+        margin: auto;
+}
+}

@@ -1,0 +1,19 @@
+
+.container-contato{
+    background-image: url('../../Assets/Images/Fundoreserva.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+.form-control{
+    color: black;
+    border: 1px solid; 
+    max-width: 400px; 
+    align-items: center; 
+     border-color: black;   
+}
+label{
+        text-align: center;   
+        color: black;    
+    }
